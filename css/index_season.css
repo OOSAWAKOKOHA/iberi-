@@ -1,0 +1,96 @@
+body {
+  font-family: "M PLUS 1", sans-serif;
+  background-color: #CFFCB2;
+}
+
+h1 {
+  margin: 140px 85px 32px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2.75px;
+  color: #422307;
+}
+
+.seasonImgWrap {
+  padding: 0 13px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.seasonImgWrap a {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  margin-bottom: 40px;
+}
+.seasonImgWrap a:first-child {
+  background-image: url("../img/img_index_season_spring.svg");
+  background-size: 168px 168px;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px #F985A0;
+  border-radius: 10px;
+}
+.seasonImgWrap a:first-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 168px;
+  height: 176px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.55);
+  background-image: url("../img/img_index_lock.svg");
+  background-position: center;
+}
+.seasonImgWrap a:nth-child(2) {
+  background: url("../img/img_index_season_summer.svg");
+  background-size: 168px 168px;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px #5AB71E;
+  border-radius: 10px;
+}
+.seasonImgWrap a:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 168px;
+  height: 176px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.55);
+  background-image: url("../img/img_index_lock.svg");
+  background-position: center;
+}
+.seasonImgWrap a:nth-child(3) {
+  background: url("../img/img_index_season_autumn.svg");
+  background-size: 168px 168px;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px #E95F04;
+  border-radius: 10px;
+}
+.seasonImgWrap a:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 168px;
+  height: 176px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.55);
+  background-image: url("../img/img_index_lock.svg");
+  background-position: center;
+}
+.seasonImgWrap a:last-child {
+  background: url("../img/img_index_season_winter.svg");
+  background-size: 168px 168px;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px #4EA1CF;
+  border-radius: 10px;
+}

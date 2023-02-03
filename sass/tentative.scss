@@ -1,0 +1,122 @@
+@use "_vers" as color;
+
+body{
+    background-color: color.$mainBg;
+    font-family: "M PLUS 1";
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: color.$headerBg;
+    /* padding-top: 44px; */
+    .flexWrap{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 15px;
+        .returnBtn{
+            position: absolute;
+            left: 24px;
+            bottom: 8px;
+            width: 48px;
+            height: 48px;
+            background-image: url("../img/retunBtnBg.svg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;    
+                .returnBtnArrow{
+                    width: 10px;
+                    height: auto;
+                }            
+            }
+        }
+        h2{
+            text-align: center;
+            font-size: 18px;
+            margin: 0 auto;
+            color: #fff;
+        }        
+    }
+}
+
+.karutaListWrap{
+    width: 240px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 27px;
+    &__ele{
+        width: 104px;
+        height: 140px;
+        border: solid 4px color.$accentColor;
+        border-radius: 8px;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .karutaListAddBtn{
+        width: 104px;
+        height: 140px;
+        background-color: color.$subBg;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
+
+.gameStartBtn{
+    display: block;
+    width: 300px;
+    height: 64px;
+    background-color: color.$btnDarkBg;
+    color: #fff;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 6px 0px color.$btnDarkDropshadow;
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.endBtn{
+    display: block;
+    width: 240px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: color.$btnThinBg;
+    box-shadow: 0px 6px 0px color.$btnThinDropshadow;
+    margin: 0 auto;
+    margin-top: 16px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+

@@ -1,0 +1,18 @@
+@import "vers";
+body {
+  background-color: $mainBg;
+}
+.prayer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__front {
+    margin: 5px 16px;
+  }
+}

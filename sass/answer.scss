@@ -1,0 +1,128 @@
+// answer_maru.html
+// answer_batu.html
+// remaining.html
+
+@import "vers";
+body {
+  background-color: $mainBg;
+}
+
+.prayer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-wrap: wrap;
+  padding: 0 33px;
+  &__front {
+    margin: 5px 16px;
+  }
+}
+.bg {
+  background-color: rgba(000, 000, 000, 0.3);
+  position: absolute;
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+}
+
+.answerMaru {
+  padding: 40px 0px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 11;
+  height: 596px;
+  width: 330px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  &__text {
+    margin: 7px 0;
+  }
+  &__prayer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      margin: 8px 12px;
+    }
+  }
+}
+
+// game.scssの複製↓
+.start {
+  position: absolute;
+  background-color: rgba(000, 000, 000, 0.3);
+  height: 100vh;
+  width: 100vw;
+  animation: startSign 3s both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: orange;
+}
+@keyframes startSign {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  &__back {
+    height: 140px;
+    width: 104px;
+    border: solid 5px $accentColor;
+    border-radius: 8px;
+    background-color: $subBg;
+    margin: 5px 16px;
+  }
+}
+.frastCard {
+  animation: cardSign 5s both;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+@keyframes cardSign {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,120 @@
+body {
+  background-color: #CFFCB2;
+  font-family: "M PLUS 1";
+  font-weight: bold;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #70D62D;
+  /* padding-top: 44px; */
+}
+header .flexWrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+header .flexWrap .returnBtn {
+  position: absolute;
+  left: 24px;
+  bottom: 8px;
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/retunBtnBg.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .flexWrap .returnBtn a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .flexWrap .returnBtn a .returnBtnArrow {
+  width: 10px;
+  height: auto;
+}
+header .flexWrap h2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.karutaListWrap {
+  width: 240px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 27px;
+}
+.karutaListWrap__ele {
+  width: 104px;
+  height: 140px;
+  border: solid 4px #422307;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.karutaListWrap__ele img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.karutaListWrap .karutaListAddBtn {
+  width: 104px;
+  height: 140px;
+  background-color: #41A400;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.gameStartBtn {
+  display: block;
+  width: 300px;
+  height: 64px;
+  background-color: #FF7F29;
+  color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 48px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0px 6px 0px #CA6420;
+}
+.gameStartBtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.endBtn {
+  display: block;
+  width: 240px;
+  height: 64px;
+  border-radius: 50px;
+  background-color: #FFB127;
+  box-shadow: 0px 6px 0px #E79D1B;
+  margin: 0 auto;
+  margin-top: 16px;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 24px;
+}

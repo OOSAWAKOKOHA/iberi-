@@ -1,0 +1,64 @@
+body {
+  font-family: "M PLUS 1", sans-serif;
+  background-color: #CFFCB2;
+}
+
+h1 {
+  height: 110px;
+  margin-top: 140px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2.55px;
+  color: #422307;
+}
+h1::before {
+  display: flex;
+  justify-content: center;
+}
+
+.eventBannerWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eventBannerWrap a {
+  position: relative;
+  display: inline-block;
+  width: 240px;
+  height: 88px;
+  background-color: #FF7F29;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  line-height: 88px;
+}
+.eventBannerWrap a:first-child {
+  box-shadow: 0 6px #CA6420;
+  border-radius: 10px;
+  margin-bottom: 26px;
+}
+.eventBannerWrap a:nth-child(n+2) {
+  box-shadow: 0 6px #CA6420;
+  border-radius: 10px;
+  margin-bottom: 38px;
+}
+.eventBannerWrap a:nth-child(n+2)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 240px;
+  height: 94px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("../img/img_index_lock.svg");
+  background-position: center;
+  background-size: 48px;
+}

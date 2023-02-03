@@ -1,0 +1,36 @@
+body {
+  font-family: "M PLUS 1", sans-serif;
+  background-color: #CFFCB2;
+}
+
+.start h2 img {
+  margin: 234px 21px 241.43px 24px;
+}
+.start .startBtn {
+  width: 300px;
+  height: 64px;
+  margin: 0 37px 84px 38px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: #FFB127;
+  border-radius: 50px;
+  box-shadow: 0 6px #E79D1B;
+  border-radius: 50px;
+}
+
+.loading p {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 13px;
+  color: #41A400;
+  width: 221px;
+  height: 36px;
+  margin: 194px 77px 24px 77px;
+}
+.loading img {
+  margin: 0 21px 241.43px 24px;
+}

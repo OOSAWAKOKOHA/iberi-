@@ -1,0 +1,18 @@
+body {
+  background-color: #CFFCB2;
+}
+
+.prayer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card__front {
+  margin: 5px 16px;
+}

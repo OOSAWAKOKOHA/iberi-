@@ -1,0 +1,209 @@
+body {
+  font-family: "M PLUS 1", sans-serif;
+  background-color: #CFFCB2;
+}
+
+section {
+  position: relative;
+}
+
+.start {
+  display: block;
+  position: absolute;
+}
+.start h2 img {
+  margin: 234px 21px 241.43px 24px;
+}
+.start .startBtn {
+  width: 300px;
+  height: 64px;
+  margin: 0 37px 84px 38px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: #FFB127;
+  border-radius: 50px;
+  box-shadow: 0 6px #E79D1B;
+  border-radius: 50px;
+}
+
+.loading {
+  display: none;
+  position: absolute;
+}
+.loading p {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 13px;
+  color: #41A400;
+  width: 221px;
+  height: 36px;
+  margin: 194px 77px 24px 77px;
+}
+.loading img {
+  margin: 0 21px 241.43px 24px;
+}
+
+.tutorialWrap {
+  position: absolute;
+  display: none;
+  width: 327px;
+  height: 560px;
+  margin: 64px 24px 0 24px;
+  padding-top: 40px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+.tutorialWrap:first-child {
+  display: block;
+}
+
+.tutorial01 h2 {
+  color: #41A400;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  width: 158px;
+  height: 29px;
+  margin: 0 84px 8px 85px;
+}
+.tutorial01 p {
+  width: 280px;
+  height: 70px;
+  margin: 0 23px 40px 24px;
+  color: #422307;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 2.5px;
+}
+.tutorial01 figure img {
+  width: 280px;
+  height: 248px;
+  margin: 0 22px 0 25px;
+}
+.tutorial01 .page {
+  margin: 77px 129px 34px 130px;
+}
+.tutorial01 .page ul {
+  display: flex;
+  justify-content: space-between;
+}
+.tutorial01 .page ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #D0D4CD;
+}
+.tutorial01 .page ul li:first-child {
+  background-color: #70D62D;
+}
+
+.tutorial02 h2 {
+  color: #41A400;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  width: 297px;
+  height: 29px;
+  margin: 0 14px 8px 16px;
+}
+.tutorial02 p {
+  width: 280px;
+  height: 70px;
+  margin: 0 23px 40px 24px;
+  color: #422307;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 2.5px;
+}
+.tutorial02 figure img {
+  width: 280px;
+  height: 248px;
+  margin: 0 22px 0 25px;
+}
+.tutorial02 .page {
+  margin: 77px 129px 34px 130px;
+}
+.tutorial02 .page ul {
+  display: flex;
+  justify-content: space-between;
+}
+.tutorial02 .page ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #D0D4CD;
+}
+.tutorial02 .page ul li:nth-child(2) {
+  background-color: #70D62D;
+}
+
+.tutorial03 h2 {
+  color: #41A400;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  width: 274px;
+  height: 29px;
+  margin: 0 26px 8px 27px;
+}
+.tutorial03 p {
+  width: 280px;
+  height: 70px;
+  margin: 0 23px 40px 24px;
+  color: #422307;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 2.5px;
+}
+.tutorial03 figure img {
+  width: 280px;
+  height: 248px;
+  margin: 0 22px 0 25px;
+}
+.tutorial03 .page {
+  margin: 77px 129px 34px 130px;
+}
+.tutorial03 .page ul {
+  display: flex;
+  justify-content: space-between;
+}
+.tutorial03 .page ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #D0D4CD;
+}
+.tutorial03 .page ul li:last-child {
+  background-color: #70D62D;
+}
+
+.nextBtn {
+  width: 300px;
+  height: 64px;
+  margin: 40px 37px 84px 38px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: #FFB127;
+  border-radius: 50px;
+  box-shadow: 0 6px #E79D1B;
+  border-radius: 50px;
+}

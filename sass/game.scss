@@ -1,0 +1,73 @@
+@import "vers";
+
+.start {
+  position: absolute;
+  background-color: rgba(000, 000, 000, 0.3);
+  height: 100vh;
+  width: 100vw;
+  animation: startSign 3s both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: orange;
+}
+@keyframes startSign {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+.frastCard {
+  animation: cardSign 5s both;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+@keyframes cardSign {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: $mainBg;
+}
+.prayer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__back {
+    height: 140px;
+    width: 104px;
+    border: solid 5px $accentColor;
+    border-radius: 8px;
+    background-color: $subBg;
+    margin: 5px 16px;
+  }
+}
